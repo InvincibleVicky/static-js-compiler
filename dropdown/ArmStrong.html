@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>   
+
+let val;
+val = prompt("Enter a number !"); 
+let n = val.length; 
+let sum = 0; 
+
+for(let i=0;i<n;i++)
+{
+    let digit = val[i]-'0'; 
+    sum = (sum + Math.pow(digit,n)); 
+}
+
+if(sum == val) 
+{
+    console.log("Armstrong Number");
+}
+else{
+    console.log("Not an Armstrong Number");
+}
+
+  </script>
+</body>
+</html>

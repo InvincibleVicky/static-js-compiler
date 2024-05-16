@@ -1,0 +1,24 @@
+#content{
+  height: 350px;
+  max-width:50% ;
+  border: 1px solid;
+  padding: 10px;
+  margin: 40px;
+}
+
+div{
+    white-space: pre-wrap;
+  }
+
+#runProgram{
+  border: 1px solid;
+  height: 100px;
+  max-width:50% ;
+  margin: 50px;
+  padding: 10px;
+}
+
+#run-btn{
+  margin-left: 50px;
+  padding: 5px;
+}
